@@ -1,0 +1,23 @@
+{
+  "name": "Node Selection and Customization - DevExtreme Tree View",
+  "main": "src/app/app.component.ts",
+  "description": "To select a node, users can click a checkbox next to it. Set the showCheckBoxesMode to \"normal\" or \"selectAll\" to display node checkboxes. The \"selectAll\" mode also enables a checkbox that selects all nodes simultaneously. If selectByClick is enabled, users can click nodes to select them.\nUse the following TreeView options to adjust selection:\n\n\nselectionMode\nSpecifies whether multiple node selection is allowed.\n\n\nselectNodesRecursive\nSpecifies whether nested nodes are selected together with their parent.\n\n\nselectedExpr\nA data field that allows you to pre-select a node. In this demo, the data field is called selected, and it is set to true for the \"Victor Norris\" node (see the data source).\n\n\nonSelectionChanged\nA function that allows you to handle selection changes. In this demo, it is used to synchronize the List with the TreeView.\n\n\nThe TreeView also provides the following methods to manage selection programmatically:\n\n\nselectItem / unselectItem\nSelects or unselects a single node. Accepts the node key, data object, or DOM node.\n\n\nselectAll() / unselectAll()\nSelects or unselects all nodes.\n\n\ngetSelectedNodes() / getSelectedNodeKeys()\nGets the selected nodes or their keys. In this demo, getSelectedNodes() is used to prepare data for the List.\n\n\nThis demo also shows how to specify an itemTemplate for node customization. Node data is passed to the template as an argument.\n",
+  "dependencies": {
+    "zone.js": "0.10.2",
+    "rxjs": "latest",
+    "quill": "1.3.7",
+    "jszip": "3.1.3",
+    "devextreme-angular": "20.1",
+    "devextreme": "20.1",
+    "devexpress-gantt": "1.0.0",
+    "devexpress-diagram": "1.0.0",
+    "core-js": "2.4.1",
+    "@angular/router": "8.0.0",
+    "@angular/platform-browser-dynamic": "8.0.0",
+    "@angular/platform-browser": "8.0.0",
+    "@angular/forms": "8.0.0",
+    "@angular/core": "8.0.0",
+    "@angular/compiler": "8.0.0",
+    "@angular/common": "8.0.0"
+  }
+}
